@@ -1,7 +1,8 @@
-{"id":"1",
-"name":"Hiren Pithwa",
-"founder":"Unique Andro Code",
-"city":"Rajkot",
-"company_logo":"https:\/\/uniqueandrocode.000webhostapp.com\/hiren\/info\/infoimages\/uniqueandrocode.png",
-"website":"www.uniqueandrocode.com"
+{
+  "city": "Rajkot",
+  "company_logo": "https://uniqueandrocode.000webhostapp.com/hiren/info/infoimages/uniqueandrocode.png",
+  "founder": "Unique Andro Code",
+  "id": "1",
+  "name": "Hiren Pithwa",
+  "website": "www.uniqueandrocode.com"
 }
