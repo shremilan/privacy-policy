@@ -1,0 +1,175 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=yes">
+		<title>Address</title>
+       
+        <style type="text/css">
+            
+            @charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color:#EEE;
+    text-align:center;
+    margin:0 auto;
+}
+
+a {
+    text-decoration:none;
+    color:#666;
+}
+
+#site {
+    font-family: Georgia, serif;
+    max-width: 960px;
+    color: #333;
+    margin:0 auto;
+}
+
+#mainTitle {
+    margin-top:20px;
+    display:block;
+    text-wrap:none;
+    font-family:Georgia, serif;
+    text-align:center;
+    margin-bottom: 0px;
+}
+
+#subTitle {
+    display:block;
+    font-family:Georgia, serif;
+    text-align:center;
+    margin-top:0px;
+}
+
+#social {
+    font-family:Georgia, serif;
+    display:block;
+    text-align:center;
+    font-size:18px;
+}
+
+#copyright {
+    font-family:Georgia, serif;
+    font-size: 14px;
+    line-height: 125%;
+    text-align:center;
+}
+
+.app {
+    background-color:#ddd;
+    margin:20px;
+    padding: 20px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.appIcon {
+    text-align:center;
+    width:25%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:1%;
+    max-width:200px;
+    min-width:44px;
+}
+
+.privacyPolicy {
+    text-align:center;
+    width:100%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:1%;
+    max-width:480px;
+}
+
+.appName {
+    font-family:Georgia, serif;
+}
+
+.appDescription {
+    text-align:justify;
+    line-height: 125%;
+    font-size:16px;
+}
+
+.iTunesStore {
+    width:50%;
+    max-width:200px;
+}
+
+.PlayStore {
+    width:50%;
+    max-width:200px;
+}
+        </style>
+	</head>
+
+	<body>
+		<div id="site">
+				<div id="header">
+					<h1><strong>Contact</strong></h1>
+                    
+				</div>  <!-- header -->
+				
+				<div id="content">
+					<div class="app">
+						<div class="appName">
+							<h2><i>Contact Information</i></h2>
+						</div> <!-- appName -->
+						<div class="appDescription">
+
+<script>
+
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var appName = url.searchParams.get("app");
+    if (appName == null) {
+        appName = 'the app'
+    } else {
+        appName = appName.replace(/([A-Z])/g, ' $1')
+        appName = appName.replace(/-/, ' -')
+        appName = appName.replace(/^./, function(str){ return str.toUpperCase(); })
+    }
+    
+    document.write(`
+
+<p>Name : Milan Shrestha</p>
+<p>Address : Mahalaxmi 8, Lalitpur, Bagmati, Nepal</p>
+<p>Contact : +977 9841582877</p>
+<p>email : <a href="mailto:milanshresthaa@hotmail.com">milanshresthaa@hotmail.com</a></p>
+<p></p>
+    
+<p>Disclaimer</p> 
+<p>
+Links to third-party web sites are provided for convenience only. We does not endorse nor support the content of third-party links.
+We are not responsible for the content of a third-party website. Privacy and security policies may differ from those practiced by us.</p>
+
+
+<p><strong>Please Contact Us</strong></p>
+<p>If you have any questions or suggestions about ` + appName + ` , do not hesitate to contact
+    me at <a href="mailto:milanshresthaa@hotmail.com">milanshresthaa@hotmail.com</a>
+</p>
+    `)
+</script>
+
+                        </div> <!-- appDescription -->
+					</div> <!-- app -->
+				</div>  <!-- content -->
+				
+					<div id="copyright">
+						<p>
+						© Milan Shrestha
+						<br />
+						Mahalaxmi 8, Lalitpur, Bagmati, Nepal
+						</p>
+					</div> <!-- copyright -->
+				</div> <!-- footer -->
+		</div> <!-- site -->
+	</body>
+	
+</html>
